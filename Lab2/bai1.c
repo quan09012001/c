@@ -16,4 +16,4 @@ int main()
     printf("%d là số lẻ.\n", num); // nếu không chia hết, in ra màn hình "num là số lẻ"
 
     return 0; // kết thúc chương trình với giá trị trả về 0, cho biết chương trình đã chạy thành công
-}
+}//
