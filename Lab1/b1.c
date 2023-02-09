@@ -8,16 +8,12 @@ int main()
 {
     // khai báo a, b kiểu số nguyên
     int a, b;
-    /*
-    nhập a, b từ bàn phím
-    */
+    //nhập a, b từ bàn phím
     printf("Nhap a: ");
     scanf("%d", &a);
     printf("Nhap b: ");
     scanf("%d", &b);
-    /*
-    in ra kết quả
-    */
+    //in ra kết quả
     printf("KQ phep cong: %d \n", a + b);
     printf("KQ phep tru: %d \n", a - b);
     printf("KQ phep nhan: %d \n", a * b);
