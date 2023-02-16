@@ -39,8 +39,8 @@ int main()
     }
 
     // Tính điểm trung bình
-    float TB = (toan + ly + hoa) / 3;
-    switch ((int)TB)
+    float tb = (toan + ly + hoa) / 3;
+    switch ((int)tb)
     {
     case 10:
     case 9:
