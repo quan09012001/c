@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 void tongHaiSo()
 {
@@ -43,8 +44,10 @@ void menu()
     printf("-----MENU-----\n");
     printf("1. Nhap so nguyen in ra tong 2 so.\n");
     printf("2. Giai phuong trinh bac 2\n");
+    printf("0. Thoat\n");
     printf("Vui long chon chuong trinh: ");
     scanf("%d", &chon);
+    printf("--------------\n");
     switch (chon)
     {
     case 1:
@@ -53,14 +56,19 @@ void menu()
     case 2:
         giaiPhuongTrinhBac2();
         break;
+    case 0:
+        exit(0);
     default:
-        printf("Vui long chon 1 trong 2 chuong trinh tren!");
-        break;
+        printf("Vui long chon 1 trong 2 chuong trinh tren: \n");
     }
 }
 
 int main()
 {
-    menu();
+    while (1)
+    {
+        menu();
+    }
+
     return 0;
 }
