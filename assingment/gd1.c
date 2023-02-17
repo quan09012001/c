@@ -113,7 +113,10 @@ void menu()
         break;
 
     case 0:
+        printf("Ban da thoat menu");
         exit(0);
+    default:
+        printf("Vui long chon 1 trong 10 chuong trinh tren: \n");
     }
 }
 
